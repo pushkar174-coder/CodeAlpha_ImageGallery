@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeAlpha Image Gallery</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>🚗 Car Image Gallery</h1>
+        <p>CodeAlpha Frontend Development Internship</p>
+    </header>
+
+    <!-- Filter Buttons -->
+    <div class="buttons">
+
+        <button class="active">All</button>
+        <button>Sports</button>
+        <button>Luxury</button>
+        <button>Classic</button>
+
+    </div>
+
+    <!-- Gallery -->
+
+    <div class="gallery">
+
+        <!-- Sports -->
+
+        <img src="images/car1.jpg" alt="Car 1" data-category="sports">
+        <img src="images/car2.jpg" alt="Car 2" data-category="sports">
+        <img src="images/car3.jpg" alt="Car 3" data-category="sports">
+
+        <!-- Luxury -->
+
+        <img src="images/car4.jpg" alt="Car 4" data-category="luxury">
+        <img src="images/car5.jpg" alt="Car 5" data-category="luxury">
+        <img src="images/car6.jpg" alt="Car 6" data-category="luxury">
+
+        <!-- Classic -->
+
+        <img src="images/car7.jpg" alt="Car 7" data-category="classic">
+        <img src="images/car8.jpg" alt="Car 8" data-category="classic">
+        <img src="images/car9.jpg" alt="Car 9" data-category="classic">
+
+    </div>
+
+    <!-- Lightbox -->
+
+    <div class="lightbox">
+
+        <span class="close">&times;</span>
+
+        <img class="lightbox-image" src="" alt="Preview">
+
+        <div class="navigation">
+
+            <button id="prev">❮ Prev</button>
+
+            <button id="next">Next ❯</button>
+
+        </div>
+
+    </div>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
